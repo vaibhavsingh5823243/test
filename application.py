@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=['GET',"POST"])
 def test():
-    return "How sexy you are"
+    return "How  are"
    
 if __name__=="__main__":
     app.run()
